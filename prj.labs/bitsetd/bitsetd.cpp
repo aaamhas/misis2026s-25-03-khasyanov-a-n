@@ -13,8 +13,8 @@ BitsetD::BitsetD(const int32_t size, const bool val)
 
 BitsetD::BitsetD(const std::uint64_t mask, const std::int32_t size) 
   : size_(size)
-  , bits_{ static_cast<uint32_t>(mask & UINT64_C(0x00000000FFFFFFFF)),
-           static_cast<uint32_t>((mask>>32) & UINT64_C(0x00000000FFFFFFFF)) }  {
+  , bits_{ static_cast<uint32_t>(mask ),
+           static_cast<uint32_t>(mask>>32) }  {
 }
 
 bool BitsetD::get(const std::int32_t idx) const {
@@ -36,5 +36,8 @@ void BitsetD::set(const std::int32_t idx, const bool val) {
 }
 
 BitsetD& BitsetD::invert() noexcept {
+  for (auto& bits : bits_) {
+    bits = ~bits;
+  }
   return *this;
 }
