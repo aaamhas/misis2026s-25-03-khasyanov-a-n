@@ -41,3 +41,25 @@ BitsetD& BitsetD::invert() noexcept {
   }
   return *this;
 }
+
+void BitsetD::fill(const bool val) noexcept {
+    int full_els = size_ / 32;
+    int remaining_els = size_ % 32;
+
+    for (int i = 0; i < full_els; i += 1) {
+        bits_[i] = val ? 0xFFFFFFFFU : 0U;
+    }
+
+    if (remaining_els > 0) {
+        if (val) {
+            bits_[full_els] = (UINT32_C(1) << remaining_els) - 1;
+        } else {
+            bits_[full_els] = 0U;
+        }
+    }
+}
+void BitsetD::resize(const std::int32_t new_size, const bool val) {
+  const auto new_chunks = (new_size + 31)/32;
+  bits_.resize(new_chunks, val ? 0xFFFFFFFFU : 0U);
+  size_ = new_size;
+}
