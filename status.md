@@ -1,4 +1,4 @@
-STAMP: 20260410-085836
+STAMP: 20260416-120658
 ERROR: file prj.labs/arrayd/CMakeLists.txt is absent
 ERROR: file prj.labs/arrayd/arrayd.hpp is absent
 ERROR: file prj.labs/arrayt/CMakeLists.txt is absent
@@ -12,5 +12,6 @@ ERROR: file prj.test/dio_test.cpp is absent
 OK: CMake generator successed
 ERROR: lab bitsetd - test build failed
 ERROR: lab bitsetd_m - test build failed
+STATUS: lab bitsetd_io - test-ok
 ERROR: lab arrayt - test build failed
 ERROR: lab arrayd - test build failed

@@ -3,6 +3,7 @@ Unable to find executable: D:/projects/misis2026-check/misis2026s-25-03-khasyano
 Unable to find executable: D:/projects/misis2026-check/misis2026s-25-03-khasyanov-a-n/bin.check/doctest_complex.exe
 Unable to find executable: D:/projects/misis2026-check/misis2026s-25-03-khasyanov-a-n/bin.check/doctest_complex_io.exe
 Unable to find executable: D:/projects/misis2026-check/misis2026s-25-03-khasyanov-a-n/bin.check/doctest_bitsetd.exe
+Unable to find executable: doctest_bitset_io
 Unable to find executable: doctest_bitset_m
 Errors while running CTest
 Output from these tests are in: D:/projects/misis2026-check/misis2026s-25-03-khasyanov-a-n/build.check/Testing/Temporary/LastTest.log
