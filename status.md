@@ -1,4 +1,4 @@
-STAMP: 20260508-112558
+STAMP: 20260508-120721
 ERROR: file prj.labs/arrayd/CMakeLists.txt is absent
 ERROR: file prj.labs/arrayd/arrayd.hpp is absent
 ERROR: file prj.labs/arrayt/CMakeLists.txt is absent
@@ -24,4 +24,5 @@ ERROR: lab arrayd - test build failed
 ERROR: lab queuea - test build failed
 ERROR: lab queuea_m - test build failed
 ERROR: lab queuel - test build failed
+ERROR: lab queuel_m - test build failed
 ERROR: lab rational - test build failed
