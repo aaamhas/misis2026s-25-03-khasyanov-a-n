@@ -120,11 +120,11 @@ D:/projects/misis2026-check/misis2026s-25-03-khasyanov-a-n/bin.check/Release/doc
 Release/D:/projects/misis2026-check/misis2026s-25-03-khasyanov-a-n/bin.check/doctest_rational_io.exe
 Release/D:/projects/misis2026-check/misis2026s-25-03-khasyanov-a-n/bin.check/doctest_rational_io.exe.exe
 12/13 Test #13: doctest_rational_io ..............***Not Run   0.00 sec
-13/13 Test  #4: doctest_bitsetd_io ...............   Passed    0.05 sec
+13/13 Test  #4: doctest_bitsetd_io ...............   Passed    0.04 sec
 
 8% tests passed, 12 tests failed out of 13
 
-Total Test time (real) =   0.17 sec
+Total Test time (real) =   0.14 sec
 
 The following tests FAILED:
 	  1 - doctest_arrayd (Not Run)
