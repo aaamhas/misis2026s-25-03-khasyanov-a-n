@@ -112,7 +112,7 @@ Release/D:/projects/misis2026-check/misis2026s-25-03-khasyanov-a-n/bin.check/doc
 
 0% tests passed, 11 tests failed out of 11
 
-Total Test time (real) =   0.06 sec
+Total Test time (real) =   0.09 sec
 
 The following tests FAILED:
 	  1 - doctest_arrayd (Not Run)
