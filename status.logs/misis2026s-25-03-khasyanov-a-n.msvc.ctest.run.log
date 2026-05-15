@@ -124,7 +124,7 @@ Release/D:/projects/misis2026-check/misis2026s-25-03-khasyanov-a-n/bin.check/doc
 
 8% tests passed, 12 tests failed out of 13
 
-Total Test time (real) =   0.14 sec
+Total Test time (real) =   0.15 sec
 
 The following tests FAILED:
 	  1 - doctest_arrayd (Not Run)
