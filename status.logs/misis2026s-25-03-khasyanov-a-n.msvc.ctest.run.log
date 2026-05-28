@@ -130,11 +130,11 @@ D:/projects/misis2026-check/misis2026s-25-03-khasyanov-a-n/bin.check/Release/doc
 Release/D:/projects/misis2026-check/misis2026s-25-03-khasyanov-a-n/bin.check/doctest_jaggeda.exe
 Release/D:/projects/misis2026-check/misis2026s-25-03-khasyanov-a-n/bin.check/doctest_jaggeda.exe.exe
 13/14 Test #14: doctest_jaggeda ..................***Not Run   0.00 sec
-14/14 Test  #4: doctest_bitsetd_io ...............   Passed    0.04 sec
+14/14 Test  #4: doctest_bitsetd_io ...............   Passed    0.05 sec
 
 7% tests passed, 13 tests failed out of 14
 
-Total Test time (real) =   0.13 sec
+Total Test time (real) =   0.17 sec
 
 The following tests FAILED:
 	  1 - doctest_arrayd (Not Run)

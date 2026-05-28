@@ -1,4 +1,4 @@
-STAMP: 20260522-141157
+STAMP: 20260528-093453
 ERROR: file prj.labs/arrayd/CMakeLists.txt is absent
 ERROR: file prj.labs/arrayd/arrayd.hpp is absent
 ERROR: file prj.labs/arrayt/CMakeLists.txt is absent
